@@ -6,6 +6,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+body{
+    background-color: #cdb5b5;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -109,7 +112,7 @@ html{
     width: 200px;
 }
 .home .home-content .text-3 span{
-    color: rgb(39, 118, 234);;
+    color: rgb(126, 136, 149);;
     font-weight: 500;
 }
 .home .home-content a{
@@ -194,7 +197,7 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: rgb(39, 118, 234);;
+    color: rgb(113, 126, 147);;
 }
 .about .about-content .right p{
     text-align: justify;
@@ -221,10 +224,21 @@ section .title::after{
 /* skills section styling */
 .skills{
     color: #ededed;
-    background-image: url('bg4.jpg');
+    background-image: url('images/bg4.jpg');
 }
-.skills .skills-content .column{
+/* .skills .skills-content .column{
     width: calc(50% - 30px)
+} */
+.column-left h3{
+    margin-bottom: 35px;
+    font-size: 18px;
+}
+.column-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 60vh;
 }
 .skills .skills-content .left .text{
     font-size: 20px;
@@ -298,7 +312,7 @@ section .title::after{
 
 /* teams section start */
 .teams{
-    background-image: url('bg9.jpg');
+    background-image: url('images/bg9.jpg');
     color: #ededed;
 }
 .teams .carousel .card{
@@ -362,7 +376,7 @@ section .title::after{
 
 /* contact section styling */
 .contact{
-    background-image: url('bg8.jpg');
+    background-image: url('images/bg8.jpg');
     color: #fff;
 }
 .contact .contact-content .column{
@@ -544,9 +558,9 @@ section .title::after{
         font-size: 25px;
         font-weight: 500;
     }
-    .max-width{
+    /* .max-width{
         padding: 0 23px;
-    }
+    } */
     .home .home-content{
         text-align: center;
     }
@@ -569,12 +583,18 @@ section .title::after{
         font-weight: 400;
         margin-bottom: 10%;
     }
+    section{
+        padding: 10px;
+    }
+    .home .max-width {
+        margin: auto;
+    }
 }
 
 @media (max-width: 500px){
-    .max-width{
+    /* .max-width{
         padding: 0 23px;
-    }
+    } */
     .home .home-content .text-2{
         font-size: 50px;
     }

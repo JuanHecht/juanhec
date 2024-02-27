@@ -24,7 +24,7 @@ $(document).ready(function(){
 
     // typing animation script
     var typed = new Typed(".typing",{
-        strings:["Hola mucho gusto", "Hi there nice to meet you", "Hallo, schön dich kennen zu lernen", "Ciao, piacere"],
+        strings:["Hi there nice to meet you", "Olá pracer em conhocer", "Hola mucho gusto", "Hallo, schön dich kennen zu lernen", "Ciao, piacere"],
         typeSpeed: 80,
         backspeed: 60,
         loop: true
